@@ -11,7 +11,7 @@ body {
   padding: 0px 20px;
 }
 
-.container {
+.container3 {
   padding: 50px 0px;
   height: 100vh;
   display: flex;
@@ -22,8 +22,8 @@ body {
 
 .parent {
   height: 400px;
-  width: 300px;
-  padding: 20px;
+  width: 250px;
+  padding: 10px;
   perspective: 1000px;
 }
 
@@ -123,3 +123,13 @@ body {
 .card4 {
   filter: hue-rotate(90deg);
 }
+
+.card5 {
+    filter: hue-rotate(900deg);
+  }
+  .card-yellow {
+    filter: hue-rotate(60deg);
+  }
+  .card-blue {
+    filter: hue-rotate(240deg);
+  }
